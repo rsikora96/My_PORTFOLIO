@@ -1,7 +1,7 @@
 export const contactsData = {
-    email: 'janedoe.test@gmail.com',
-    phone: '+915588776600',
-    address: 'Menlo Park, California, United States - 673822 ',
+    email: 'roksana.sikora498@gmail.com',
+    phone: '575 840 640',
+    address: 'Wrocław',
 
     sheetAPI: ''
 }

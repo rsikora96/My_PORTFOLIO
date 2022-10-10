@@ -169,6 +169,7 @@ function Contacts() {
             <div className='contacts--container'>
                 <h1 style={{ color: theme.primary }}>Contacts</h1>
                 <div className='contacts-body'>
+{/*
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
                             <div className='input-container'>
@@ -279,6 +280,7 @@ function Contacts() {
                             />
                         </Snackbar>
                     </div>
+*/}
 
                     <div className='contacts-details'>
                         <a
@@ -312,7 +314,7 @@ function Contacts() {
                             </p>
                         </div>
 
-                        <div className='socialmedia-icons'>
+                       {/* <div className='socialmedia-icons'>
                             {socialsData.twitter && (
                                 <a
                                     href={socialsData.twitter}
@@ -423,7 +425,7 @@ function Contacts() {
                                     <FaGitlab aria-label='GitLab' />
                                 </a>
                             )}
-                        </div>
+                        </div>*/}
                     </div>
                 </div>
             </div>

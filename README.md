@@ -246,9 +246,9 @@ yarn start
 │   │   │   └── SingleService
 │   │   │       ├── SingleService.css
 │   │   │       └── SingleService.js
-│   │   ├── Skills
-│   │   │   ├── Skills.css
-│   │   │   └── Skills.js
+│   │   ├── Tools
+│   │   │   ├── Tools.css
+│   │   │   └── Tools.js
 │   │   ├── Testimonials
 │   │   │   ├── Testimonials.css
 │   │   │   └── Testimonials.js
@@ -328,7 +328,7 @@ export const headerData = {
 
 > #### Enter your Projects - [`src/data/projectsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/projectsData.js)
 
-> #### Add your Skills - [`src/data/skillsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/skillsData.js)
+> #### Add your Tools - [`src/data/skillsData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/skillsData.js)
 
 > #### Experience - [`src/data/experienceData.js`](https://github.com/hhhrrrttt222111/developer-portfolio/blob/master/src/data/experienceData.js)
 
@@ -486,7 +486,7 @@ export const educationData = [
 ## Raise an issue for...
 - Found a bug
 - New theme
-- Can't find required skill in Skills section
+- Can't find required skill in Tools section
 - Add new social media profile
 - Add new service
 - Add another section

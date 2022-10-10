@@ -3,58 +3,61 @@ import two from '../assets/svg/projects/two.svg'
 import three from '../assets/svg/projects/three.svg'
 import four from '../assets/svg/projects/four.svg'
 import five from '../assets/svg/projects/five.svg'
-import six from '../assets/svg/projects/six.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import eight from '../assets/svg/projects/eight.svg'
+import mr_buggy from '../assets/pdf/MrBuggy_v1.pdf'
+import api_bug_report from '../assets/pdf/API_Bug_Report.pdf'
+import exploration_tests from '../assets/pdf/Explorataion_tests.pdf'
+import test_scenario from '../assets/pdf/Test_scenario.pdf'
+import usability_bug_report from '../assets/pdf/Usability_Bug_Report.pdf'
+
 
 
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Employee Management',
-        projectDesc: 'This project aims to build an employee management system that consolidates all information of a company',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'MrBuggy',
+        projectDesc: 'This project includes my tests application MrBuggy v1 with described steps I did and attached reports',
+        tags: ['Test plan', 'Tests cases', 'Bug report', 'Test report'],
+        code: mr_buggy,
+        demo: mr_buggy,
         image: one
     },
     {
         id: 2,
-        projectName: 'Railway Tracking',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Test API',
+        projectDesc: 'This project includes api tests I executed with attached bug report',
+        tags: ['Bug report'],
+        code: api_bug_report,
+        demo: api_bug_report,
         image: two
     },
     {
         id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Exploration tests',
+        projectDesc: 'This project includes my exploration tests I did to verify quantity application MrBuggy7',
+        tags: ['Test plan, Test report'],
+        code: exploration_tests,
+        demo: exploration_tests,
         image: three
     },
     {
         id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Test scenario',
+        projectDesc: 'This project includes test scenario I prepared for rossmann.pl',
+        tags: ['Test scenario'],
+        code: test_scenario,
+        demo: test_scenario,
         image: four
     },
     {
         id: 5,
-        projectName: 'E-Commerce App',
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
+        projectName: 'Usability Bug Report',
+        projectDesc: 'This project includes usability bug report I did for E-quinox website',
+        tags: ['Usability Bug Report'],
+        code: usability_bug_report,
+        demo: usability_bug_report,
         image: five
     },
-    {
+   /* {
         id: 6,
         projectName: 'Uber Lite',
         projectDesc: 'Uber clone',
@@ -80,7 +83,7 @@ export const projectsData = [
         code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
         image: eight
-    },
+    },*/
 ]
 
 

@@ -43,9 +43,15 @@ import aws from '../assets/svg/skills/aws.svg'
 import deno from '../assets/svg/skills/deno.svg'
 import django from '../assets/svg/skills/django.svg'
 import firebase from '../assets/svg/skills/firebase.svg'
-import gimp from '../assets/svg/skills/gimp.svg'
 import git from '../assets/svg/skills/git.svg'
 import graphql from '../assets/svg/skills/graphql.svg'
+import jira from '../assets/svg/skills/jira.svg'
+import sql from '../assets/svg/skills/sql.svg'
+import github from '../assets/svg/skills/github.svg'
+import postman from '../assets/svg/skills/postman.svg'
+import testlink from '../assets/svg/skills/testlink.svg'
+import trello from '../assets/svg/skills/trello.svg'
+import soapui from '../assets/svg/skills/soapui.svg'
 import lightroom from '../assets/svg/skills/lightroom.svg'
 import materialui from '../assets/svg/skills/materialui.svg'
 import nginx from '../assets/svg/skills/nginx.svg'
@@ -169,12 +175,12 @@ export const skillsImage = (skill) => {
             return django;
         case 'firebase':
             return firebase;
-        case 'gimp':
-            return gimp;
         case 'git':
             return git;
         case 'graphql':
             return graphql;
+        case 'jira':
+            return jira;
         case 'lightroom':
             return lightroom;
         case 'materialui':
@@ -227,6 +233,18 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'trello':
+            return trello;
+        case 'postman':
+            return postman;
+        case 'github':
+            return github;
+        case 'sql':
+            return sql;
+        case 'testlink':
+            return testlink;
+        case 'soapui':
+            return soapui;
         default:
             break;
     }

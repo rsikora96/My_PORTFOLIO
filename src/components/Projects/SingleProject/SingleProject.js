@@ -1,6 +1,8 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { FaPlay, FaCode } from 'react-icons/fa';
+import { FiDownload } from 'react-icons/fi';
+import { CgDetailsMore } from 'react-icons/cg';
 import Fade from 'react-reveal/Fade';
 
 import placeholder from '../../../assets/png/placeholder.png';
@@ -51,6 +53,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                     <img src={image ? image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
                         <a
+                            download={name}
                             href={demo}
                             target='_blank'
                             rel='noreferrer'
@@ -61,7 +64,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .replace(' ', '-')
                                 .toLowerCase()}-demo`}
                         >
-                            <FaPlay
+                            <FiDownload
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-demo`}
@@ -80,7 +83,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
                                 .replace(' ', '-')
                                 .toLowerCase()}-code`}
                         >
-                            <FaCode
+                            <CgDetailsMore
                                 id={`${name
                                     .replace(' ', '-')
                                     .toLowerCase()}-code`}

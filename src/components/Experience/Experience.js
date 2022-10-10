@@ -17,15 +17,13 @@ function Experience() {
                      <img src={theme.expimg} alt="" />
                  </div>
                  <div className="experience-description">
-                    <h1 style={{color:theme.primary}}>Experience</h1>
+                    <h1 style={{color:theme.primary}}>My projects</h1>
                     {experienceData.map(exp =>(
                         <ExperienceCard 
                             key={exp.id}
                             id={exp.id}
                             jobtitle={exp.jobtitle}
-                            company={exp.company}
-                            startYear={exp.startYear}
-                            endYear={exp.endYear}/>
+                            company={exp.company}/>
                     ))}
                  </div>
              </div>

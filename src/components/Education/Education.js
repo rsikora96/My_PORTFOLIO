@@ -15,15 +15,14 @@ function Education() {
            
             <div className="education-body">
                 <div className="education-description">
-                <h1 style={{color:theme.primary}}>Education</h1>
+                <h1 style={{color:theme.primary}}>Certifications and courses</h1>
                     {educationData.map(edu => (
                         <EducationCard 
                             key={edu.id}
                             id={edu.id}
                             institution={edu.institution}
                             course={edu.course}
-                            startYear={edu.startYear}
-                            endYear={edu.endYear}
+                            href={edu.href}
                         />
                     ))}
                 </div>

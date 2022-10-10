@@ -9,12 +9,14 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
-    FaGithub,
-    FaYoutube,
-    FaBlogger,
+    FaGithub, FaJira,
 } from 'react-icons/fa';
+
+import {
+    AiFillSafetyCertificate
+} from 'react-icons/ai';
+
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -101,45 +103,45 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.jira && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.jira}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaJira
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Jira'
                                 />
                             </a>
                         )}
-                        {socialsData.youtube && (
+                        {socialsData.istqb && (
                             <a
-                                href={socialsData.youtube}
+                                href={headerData.certificatePdf}
+                                download='ISTQB_certificate_R_Sikora'
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaYoutube
+                                <AiFillSafetyCertificate
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Istqb'
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {/*{socialsData.right && (
                             <a
-                                href={socialsData.blogger}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaArrowAltCircleRight
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
                                     aria-label='Blogger'
                                 />
                             </a>
-                        )}
+                        )}*/}
                     </div>
                 </div>
                 <img
@@ -161,13 +163,14 @@ function Landing() {
                     >
                         <h6>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p>{headerData.description}</p>
+                        <p>{headerData.description2}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='CV_Roksana-Sikora'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

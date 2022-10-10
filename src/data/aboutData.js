@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "About me",
-    description1: "My name is Roksana Sikora and I'm looking for opportunity to work as Junior Software Tester.",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "So far, I have worked as an administrative employee. My goal is to change trades and start working as a manual tester. I study, read and use specialized online courses every day to best prepare myself for commercial work as a tester.",
+    description2: "I have passed the ISTQB exam. I don't have experience in IT, but I believe that my portfolio will interest you and I will get a chance to gain practical skills and develop my career. I am a positive person and enjoy taking on challenges. In my free time I mainly read reportage books and play badminton.",
     image: 2
 }

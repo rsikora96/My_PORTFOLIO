@@ -9,5 +9,8 @@ export const socialsData = {
     blogger: 'https://www.blogger.com/',
     medium: 'https://medium.com/@',
     gitlab: 'https://gitlab.com/',
-    youtube: 'https://youtube.com/'
+    youtube: 'https://youtube.com/',
+    jira: 'https://rsikora12.atlassian.net/jira/software/projects/RS1/boards/1',
+    istqb: 'myIstqbCertificate',
+    right:'FaArrowAltCircleRight'
 }
